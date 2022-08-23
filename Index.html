@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- zomato logo in the tab -->
+    <link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- importing styles.css -->
+    <link rel="stylesheet" href="Style.css" />
+
+    <title>Zomato Clone</title>
+</head>
+
+<body>
+    <section class="hero__section">
+        <header>
+            <nav class="navbar">
+                <a href="#">Get The App</a>
+                <div class="navbar__menu_container">
+                    <a href="#" class="link">Inventor Relations</a>
+                    <a href="#" class="link">Add Restaurant</a>
+                    <a href="#" class="link">Login</a>
+                    <a href="#" class="link">Sign Up</a>
+                    <a href="#" class="user__icon">
+                        <i class="fa-solid fa-user"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="hero__section_container">
+            <img class="hero__section_logo" src="images/heroSectionLogo.png" alt="Zomato Logo" />
+            <h1 class="hero__section_title">
+                Discover the best food & drinks in Delhi NCR
+            </h1>
+            <div class="hero__section_input_container">
+                <input class="input_container_location" type="text" placeholder="TWCA, 1, Ashok Rd, Hanu" />
+                <input class="input_container_search" type="text" placeholder="Search for a restaurant, cuisine or a dish" />
+            </div>
+        </div>
+    </section>
+
+    <section class="container we__offer">
+        <div class="we__offer_card">
+            <img src="images/item1.png" alt="" />
+            <div class="we__offer_content">
+                <h2>Order Online</h2>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+
+        <div class="we__offer_card">
+            <img src="images/item2.png" alt="" />
+            <div class="we__offer_content">
+                <h2>Dining</h2>
+                <p>View the city's favourite dining venue</p>
+            </div>
+        </div>
+
+        <div class="we__offer_card">
+            <img src="images/item3.png" alt="" />
+            <div class="we__offer_content">
+                <h2>Nightlife and Clubs</h2>
+                <p>Explore the city's top nightlife outlets</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container collections">
+        <h1>Collections</h1>
+
+        <div class="sub__heading_container">
+            <span>Explore curated lists of top restaurants, cafes, pubs, and barsin
+          Delhi NCR, based on trends</span>
+            <span> All collections in Delhi NCR </span>
+        </div>
+        <div class="collections_card_container">
+            <div class="card card1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Live Cricket Screening</h4>
+                    <span>58 Places</span>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Diwali Special</h4>
+                    <span>22 Places</span>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Newly Opened</h4>
+                    <span>78 Places</span>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h4>Trending this week</h4>
+                    <span>18 Places</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container get__the_App">
+        <div class="semiContainer">
+            <div class="left">
+                <img src="Images/mobileBanner.png" alt="" />
+            </div>
+            <div class="right">
+                <h1>Get the Zomato App</h1>
+                <p>We will send you a link, open it on your phone to download the App</p>
+                <div class="radio__button_container">
+                    <div>
+                        <input type="radio" id="email" name="donwload_app">
+                        <lable for="email" style="font-size: 14px;">Email</lable>
+                    </div>
+                    <div>
+                        <input type="radio" id="phone" name="donwload_app">
+                        <lable for="phone" style="font-size: 14px;">Phone</lable>
+                    </div>
+                </div>
+                <div class="input_container">
+                    <input type="text" placeholder="Email" />
+                    <button>Share App Link</button>
+                </div>
+                <div class="donwload_app_container">
+                    <h5>Donwload App From</h5>
+                    <div>
+                        <img src="Images/playStore.png" alt="" />
+                        <img src="Images/appleStore.png" alt="" />
+                    </div>
+                </div>
+    </section>
+</body>
+
+</html>
