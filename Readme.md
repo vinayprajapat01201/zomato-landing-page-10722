@@ -1,3 +1,2 @@
-#This is Zomato Landing page clone
-
-this is batch 10722
+#This is my website - Zomato Landing page clone
+https://zomato-project1.netlify.app
